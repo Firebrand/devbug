@@ -14,6 +14,18 @@ npm install --save devbug
 
 ## Usage
 
+First create a property called debugmode in your local package.json file:
+
+```
+...
+"dependencies": {
+    "mocha": "^3.5.3",
+    "nyc": "^11.2.1"
+  },
+"debugmode": true
+```
+
+
 ```
 const {dbg,colors} = require('devbug');
 
@@ -25,7 +37,7 @@ dbg(<summary>,<object/string/value to display>,<color>);
 
 ### Debugging
 
-*In your package.json file make sure you add a property called 'debugmode' and set it to true for this to work:*
+**In your package.json file make sure you add a property called 'debugmode' and set it to true for this to work:**
 
 ```
 const {dbg,colors} = require('devbug');
