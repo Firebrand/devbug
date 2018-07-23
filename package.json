@@ -1,6 +1,6 @@
 {
   "name": "devbug",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Debug your app with a much better console.log() alternative",
   "main": "./lib/index.js",
   "scripts": {
