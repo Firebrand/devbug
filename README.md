@@ -1,7 +1,8 @@
 # Devbug
 
-Debug your app with a much better console.log() alternative!
-
+Debug your node app with a much better console.log() alternative. Devbug will do a better job formatting the variables you want to output and allow you
+to choose colors so you don't get confused when debugging. Additionally, devbug provides you with a master on-off switch so you can
+disable all your debug outputs for production.
 
 ## Installation
 
