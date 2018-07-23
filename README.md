@@ -22,14 +22,15 @@ First create a property called debugmode in your local package.json file:
     "mocha": "^3.5.3",
     "nyc": "^11.2.1"
   },
-**"debugmode": true**
+"debugmode": true
 ```
 
+Then simply pull out the methods you need and use them:
 
 ```
 const {dbg,colors} = require('devbug');
 
-dbg(<summary>,<object/string/value to display>,<color>);
+dbg(<summary>,<variable to display>,<color>);
 ```
 
 
