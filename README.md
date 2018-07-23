@@ -22,7 +22,7 @@ First create a property called debugmode in your local package.json file:
     "mocha": "^3.5.3",
     "nyc": "^11.2.1"
   },
-"debugmode": true
+**"debugmode": true**
 ```
 
 
