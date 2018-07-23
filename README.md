@@ -1,5 +1,3 @@
-![devbug logo](https://raw.githubusercontent.com/Firebrand/devbug/master/logo.gif)
-
 # Devbug
 
 Debug your app with a much better console.log() alternative!
