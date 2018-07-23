@@ -38,7 +38,7 @@ dbg(<summary>,<variable to display>,<color>);
 
 ### Debugging
 
-**In your package.json file make sure you add a property called 'debugmode' and set it to true for this to work:**
+**Reminder:** *In your package.json file make sure you add a property called 'debugmode' and set it to true for this to work:*
 
 ```
 const {dbg,colors} = require('devbug');
